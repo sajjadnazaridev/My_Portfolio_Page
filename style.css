@@ -1,0 +1,133 @@
+/* Font Google */
+@import url(https://fonts.googleapis.com/css?family=Square%20Peg);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Square Peg';
+}
+
+.left{
+    display: inline-block;
+    width: 400px;
+    height: 625px;
+    padding: 20px;
+    background-color: #302f2B;
+    color: #fff;
+}
+
+.left .code{
+    font-size: 35px;
+}
+
+.name{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: -9px;
+    left: 10px;
+}
+
+.left .bottom{
+    position: absolute;
+    bottom: 20px;
+    font-size: 25px;
+}
+
+.text-email{
+    margin-bottom: 20px;
+}
+
+.phone-number{
+    margin-bottom: 20px;
+}
+
+.icons a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.icons a:hover{
+    color: #cbac82;
+}
+
+.img{
+    width: 33em;
+    height: 576px;
+    position: absolute;
+    top: 25px;
+    left: 265px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.sajjad-ph{
+    width: 100%;
+    height: 100%;
+}
+
+.right{
+    display: inline;
+    width: 20em;
+    margin-top: 9em;
+    margin-right: 10em;
+    float: right;
+}
+
+.caption h1{
+    font-size: 40px;
+}
+
+.job{
+    color: #cbac82
+}
+
+.caption h4{
+    font-size: 20px;
+    margin: 0 0 30px;
+}
+
+.caption p{
+    font-size: 25px;
+    margin-bottom: 27px;
+}
+
+.btn{
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.btn1{
+    margin-right: 20px;
+    border:none;
+    font-family: 'Square Peg';
+    letter-spacing: 5px;
+    background-color: #302f2B;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    color:#302f2B;
+    border: 2px solid #302f2B;
+}
+
+.btn2{
+    font-family: 'Square Peg';
+    letter-spacing: 5px;
+    border: 2px solid #302f2B;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.btn2:hover{
+    background-color: #302f2B;
+    color: #fff;
+}
