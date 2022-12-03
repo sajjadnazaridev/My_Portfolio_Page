@@ -136,6 +136,7 @@ body{
     .left{
         display: block;
         width: 100%;
+        height: 53em;
     }
     
     .left .top{
@@ -153,7 +154,7 @@ body{
         width: 200px;
         height: 250px;
         position: absolute;
-        top: 14%;
+        top: 25%;
         left: 25%;
     }
     
